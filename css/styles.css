@@ -43,6 +43,13 @@ main form {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+@media screen and (min-width: 380px) {
+  main form {
+    width: 90%;
+  }
 }
 
 main form .inputs-container {
@@ -101,6 +108,12 @@ main form .password-infos {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 380px) {
+  main form .password-infos{
+    font-size: 0.9em;
+  }
 }
 
 main form .password-infos a {
